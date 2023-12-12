@@ -1,5 +1,6 @@
 * {
     background: #3c4042;
+    color: white;
 }
 .banner {
     /* The image used */
@@ -43,6 +44,7 @@ header ul li {
 .float-left {
         float: left;
         margin-right: 25px;
+
     }
 body {
         width: 75%;
@@ -50,6 +52,12 @@ body {
         margin-left: 20px;
     }
 .img {
-        max-width: 100%;
+        max-width: 130%;
         height: auto;
+        right: 15px;
       }
+#relative-box {
+  position: relative;
+  bottom: 95px;
+  max-height: 400px;
+}
