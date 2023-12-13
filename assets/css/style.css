@@ -7,6 +7,9 @@
     background-image:
     url("https://www.canva.com/design/DAF2ubq-oeA/Ume4l2jK-zcSu957VNJtZg/edit");
   }
+  #contact-me {
+    padding: 3px;
+  }
   header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -43,7 +46,9 @@ footer ul {
     background-color: #3c4042;
     color: white;
     border-style: solid;
-    border-color: white  
+    border-color: white;
+    display: flex;
+    justify-content: space-between;  
     }
 .float-left {
         float: left;
@@ -55,15 +60,12 @@ body {
         display: inline-block;
         margin-left: 20px;
     }
-.img {
-        max-width: 130%;
-        height: auto;
-        right: 15px;
-      }
+
 #relative-box {
   position: relative;
   bottom: 95px;
   max-height: 400px;
+  
 }
 
 .relative-box-1 {
@@ -74,6 +76,7 @@ body {
     margin-bottom: 40px;
     border-style: solid;
     border-color: whitesmoke;
+    
 }
 .relative-box-2 {
     position: relative;
@@ -83,6 +86,7 @@ body {
     margin-bottom: 40px;
     border-style: solid;
     border-color: whitesmoke;
+    
 }
 
 @media screen and (max-width: 768px) {
