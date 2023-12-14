@@ -7,5 +7,5 @@ In this project, the goal was to create our professional portolio that we are go
 Aldo Mendoza GitHub: https://github.com/Aldomendoza56/My-Professional-Portfolio
 
 '''md
-![alt text](images/screenshot.png.png)
+![alt text](images/Screenshot(11).png)
 '''
